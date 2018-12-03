@@ -34,7 +34,8 @@ def head():
     midIndex = fileText.find(b, index, finish)
     headlines.append(fileText[index:midIndex])
     start = midIndex
-    
+  
+  print "*** Foothill Breaking News! ****"    
   for i in headlines:
     print i
   return 0
